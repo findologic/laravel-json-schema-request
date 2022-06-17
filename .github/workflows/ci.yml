@@ -28,9 +28,3 @@ jobs:
           composer install --no-progress --no-suggest --prefer-dist --optimize-autoloader
       - name: PHPUnit
         run: ./vendor/bin/phpunit --coverage-clover=coverage.clover
-      - name: Download ocular reporter
-        run: curl -L https://scrutinizer-ci.com/ocular.phar > ./ocular.phar
-      - name: Upload Coverage report
-        run: php ocular.phar code-coverage:upload --access-token="${SCRUTINIZER_ACCESS_TOKEN}" --format=php-clover ./coverage.clover
-        env:
-          SCRUTINIZER_ACCESS_TOKEN: ${{ secrets.SCRUTINIZER_ACCESS_TOKEN }}

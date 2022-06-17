@@ -4,8 +4,7 @@ JSON Schema Request
 [![Code Coverage](https://scrutinizer-ci.com/g/wt-health/laravel-json-schema-request/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/wt-health/laravel-json-schema-request/?branch=main)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/wt-health/laravel-json-schema-request/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/wt-health/laravel-json-schema-request/?branch=main)
 
-Laravels [Form Request Validation](https://laravel.com/docs/7.x/validation#form-request-validation) for JSON Schema documents  
- 
+Laravels [Form Request Validation](https://laravel.com/docs/7.x/validation#form-request-validation) for JSON Schema documents
 
 Installation
 --------------
